@@ -1,0 +1,995 @@
+[2018-08-27 13:32:32,914] {jobs.py:368} INFO - Started process (PID=31119) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:32:32,915] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:32:32,919] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:32:32,986] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.072 seconds
+[2018-08-27 13:32:33,927] {jobs.py:368} INFO - Started process (PID=31123) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:32:33,930] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:32:33,934] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:32:34,024] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.097 seconds
+[2018-08-27 13:32:46,465] {jobs.py:368} INFO - Started process (PID=31158) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:32:46,467] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:32:46,472] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:32:46,586] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.121 seconds
+[2018-08-27 13:32:53,218] {jobs.py:368} INFO - Started process (PID=31176) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:32:53,219] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:32:53,223] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:32:53,370] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.152 seconds
+[2018-08-27 13:33:33,306] {jobs.py:368} INFO - Started process (PID=31284) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:33:33,307] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:33:33,311] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:33:33,430] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.124 seconds
+[2018-08-27 13:33:56,659] {jobs.py:368} INFO - Started process (PID=31334) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:33:56,660] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:33:56,665] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:33:57,348] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.689 seconds
+[2018-08-27 13:34:53,907] {jobs.py:368} INFO - Started process (PID=31476) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:34:53,908] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:34:53,912] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:34:53,959] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:34:54,232] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:00: scheduled__2015-06-01T00:00:00, externally triggered: False>
+[2018-08-27 13:34:54,235] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:00: scheduled__2015-06-01T00:00:00, externally triggered: False>
+[2018-08-27 13:34:54,247] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:34:54,308] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-27 13:34:54,367] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.460 seconds
+[2018-08-27 13:34:54,915] {jobs.py:368} INFO - Started process (PID=31482) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:34:54,917] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:34:54,923] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:34:54,973] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:34:55,087] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:01: scheduled__2015-06-01T00:00:01, externally triggered: False>
+[2018-08-27 13:34:55,089] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:00: scheduled__2015-06-01T00:00:00, externally triggered: False>
+[2018-08-27 13:34:55,097] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:01: scheduled__2015-06-01T00:00:01, externally triggered: False>
+[2018-08-27 13:34:55,149] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:34:55,214] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:01 [scheduled]> in ORM
+[2018-08-27 13:34:55,266] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.351 seconds
+[2018-08-27 13:35:51,680] {jobs.py:368} INFO - Started process (PID=31601) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:35:51,681] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:35:51,697] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:35:51,788] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:35:51,897] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:02: scheduled__2015-06-01T00:00:02, externally triggered: False>
+[2018-08-27 13:35:51,899] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:00: scheduled__2015-06-01T00:00:00, externally triggered: False>
+[2018-08-27 13:35:51,910] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:01: scheduled__2015-06-01T00:00:01, externally triggered: False>
+[2018-08-27 13:35:51,919] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:02: scheduled__2015-06-01T00:00:02, externally triggered: False>
+[2018-08-27 13:35:51,946] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:35:52,036] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:00 [scheduled]> in ORM
+[2018-08-27 13:35:52,092] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:02 [scheduled]> in ORM
+[2018-08-27 13:35:52,140] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.460 seconds
+[2018-08-27 13:36:04,253] {jobs.py:368} INFO - Started process (PID=31679) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:36:04,255] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:36:04,262] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:36:04,369] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:36:04,512] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:03: scheduled__2015-06-01T00:00:03, externally triggered: False>
+[2018-08-27 13:36:04,514] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:00: scheduled__2015-06-01T00:00:00, externally triggered: False>
+[2018-08-27 13:36:04,523] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:01: scheduled__2015-06-01T00:00:01, externally triggered: False>
+[2018-08-27 13:36:04,534] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:02: scheduled__2015-06-01T00:00:02, externally triggered: False>
+[2018-08-27 13:36:04,544] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:03: scheduled__2015-06-01T00:00:03, externally triggered: False>
+[2018-08-27 13:36:04,570] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:36:04,606] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:01 [scheduled]> in ORM
+[2018-08-27 13:36:04,640] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:03 [scheduled]> in ORM
+[2018-08-27 13:36:04,680] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.427 seconds
+[2018-08-27 13:36:56,571] {jobs.py:368} INFO - Started process (PID=31764) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:36:56,572] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:36:56,578] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:36:56,634] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:36:56,742] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:04: scheduled__2015-06-01T00:00:04, externally triggered: False>
+[2018-08-27 13:36:56,744] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:00: scheduled__2015-06-01T00:00:00, externally triggered: False>
+[2018-08-27 13:36:56,797] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:01: scheduled__2015-06-01T00:00:01, externally triggered: False>
+[2018-08-27 13:36:56,809] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:02: scheduled__2015-06-01T00:00:02, externally triggered: False>
+[2018-08-27 13:36:56,820] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:03: scheduled__2015-06-01T00:00:03, externally triggered: False>
+[2018-08-27 13:36:56,832] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:04: scheduled__2015-06-01T00:00:04, externally triggered: False>
+[2018-08-27 13:36:56,865] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:36:56,907] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:02 [scheduled]> in ORM
+[2018-08-27 13:36:56,943] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:04 [scheduled]> in ORM
+[2018-08-27 13:36:56,977] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.406 seconds
+[2018-08-27 13:37:31,663] {jobs.py:368} INFO - Started process (PID=31844) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:37:31,664] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:37:31,668] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:37:31,732] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:37:31,838] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:05: scheduled__2015-06-01T00:00:05, externally triggered: False>
+[2018-08-27 13:37:31,840] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:01: scheduled__2015-06-01T00:00:01, externally triggered: False>
+[2018-08-27 13:37:31,891] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:02: scheduled__2015-06-01T00:00:02, externally triggered: False>
+[2018-08-27 13:37:31,904] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:03: scheduled__2015-06-01T00:00:03, externally triggered: False>
+[2018-08-27 13:37:31,915] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:04: scheduled__2015-06-01T00:00:04, externally triggered: False>
+[2018-08-27 13:37:31,932] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:05: scheduled__2015-06-01T00:00:05, externally triggered: False>
+[2018-08-27 13:37:31,973] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:37:32,012] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:03 [scheduled]> in ORM
+[2018-08-27 13:37:32,046] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:05 [scheduled]> in ORM
+[2018-08-27 13:37:32,101] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.438 seconds
+[2018-08-27 13:38:06,406] {jobs.py:368} INFO - Started process (PID=31917) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:38:06,408] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:38:06,412] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:38:06,483] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:38:06,586] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:06: scheduled__2015-06-01T00:00:06, externally triggered: False>
+[2018-08-27 13:38:06,588] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:02: scheduled__2015-06-01T00:00:02, externally triggered: False>
+[2018-08-27 13:38:06,652] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:03: scheduled__2015-06-01T00:00:03, externally triggered: False>
+[2018-08-27 13:38:06,675] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:04: scheduled__2015-06-01T00:00:04, externally triggered: False>
+[2018-08-27 13:38:06,696] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:05: scheduled__2015-06-01T00:00:05, externally triggered: False>
+[2018-08-27 13:38:06,711] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:06: scheduled__2015-06-01T00:00:06, externally triggered: False>
+[2018-08-27 13:38:06,745] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:38:06,794] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:04 [scheduled]> in ORM
+[2018-08-27 13:38:06,847] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:06 [scheduled]> in ORM
+[2018-08-27 13:38:06,902] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.496 seconds
+[2018-08-27 13:38:40,974] {jobs.py:368} INFO - Started process (PID=31972) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:38:40,975] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:38:40,979] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:38:41,036] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:38:41,122] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:07: scheduled__2015-06-01T00:00:07, externally triggered: False>
+[2018-08-27 13:38:41,124] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:03: scheduled__2015-06-01T00:00:03, externally triggered: False>
+[2018-08-27 13:38:41,174] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:04: scheduled__2015-06-01T00:00:04, externally triggered: False>
+[2018-08-27 13:38:41,184] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:05: scheduled__2015-06-01T00:00:05, externally triggered: False>
+[2018-08-27 13:38:41,193] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:06: scheduled__2015-06-01T00:00:06, externally triggered: False>
+[2018-08-27 13:38:41,205] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:07: scheduled__2015-06-01T00:00:07, externally triggered: False>
+[2018-08-27 13:38:41,227] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:38:41,260] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:05 [scheduled]> in ORM
+[2018-08-27 13:38:41,295] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:07 [scheduled]> in ORM
+[2018-08-27 13:38:41,403] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.430 seconds
+[2018-08-27 13:39:15,457] {jobs.py:368} INFO - Started process (PID=32137) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:39:15,460] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:39:15,465] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:39:15,511] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:39:15,615] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:08: scheduled__2015-06-01T00:00:08, externally triggered: False>
+[2018-08-27 13:39:15,618] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:04: scheduled__2015-06-01T00:00:04, externally triggered: False>
+[2018-08-27 13:39:15,663] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:05: scheduled__2015-06-01T00:00:05, externally triggered: False>
+[2018-08-27 13:39:15,676] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:06: scheduled__2015-06-01T00:00:06, externally triggered: False>
+[2018-08-27 13:39:15,689] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:07: scheduled__2015-06-01T00:00:07, externally triggered: False>
+[2018-08-27 13:39:15,706] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:08: scheduled__2015-06-01T00:00:08, externally triggered: False>
+[2018-08-27 13:39:15,735] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:39:15,769] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:06 [scheduled]> in ORM
+[2018-08-27 13:39:15,803] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:08 [scheduled]> in ORM
+[2018-08-27 13:39:15,860] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.403 seconds
+[2018-08-27 13:39:50,228] {jobs.py:368} INFO - Started process (PID=32209) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:39:50,231] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:39:50,235] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:39:50,398] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:39:50,498] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:09: scheduled__2015-06-01T00:00:09, externally triggered: False>
+[2018-08-27 13:39:50,500] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:05: scheduled__2015-06-01T00:00:05, externally triggered: False>
+[2018-08-27 13:39:50,548] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:06: scheduled__2015-06-01T00:00:06, externally triggered: False>
+[2018-08-27 13:39:50,563] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:07: scheduled__2015-06-01T00:00:07, externally triggered: False>
+[2018-08-27 13:39:50,575] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:08: scheduled__2015-06-01T00:00:08, externally triggered: False>
+[2018-08-27 13:39:50,588] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:09: scheduled__2015-06-01T00:00:09, externally triggered: False>
+[2018-08-27 13:39:50,617] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:39:50,650] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:07 [scheduled]> in ORM
+[2018-08-27 13:39:50,684] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:09 [scheduled]> in ORM
+[2018-08-27 13:39:50,742] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.514 seconds
+[2018-08-27 13:40:24,692] {jobs.py:368} INFO - Started process (PID=32265) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:40:24,694] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:40:24,698] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:40:24,751] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:40:24,874] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:10: scheduled__2015-06-01T00:00:10, externally triggered: False>
+[2018-08-27 13:40:24,876] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:06: scheduled__2015-06-01T00:00:06, externally triggered: False>
+[2018-08-27 13:40:24,925] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:07: scheduled__2015-06-01T00:00:07, externally triggered: False>
+[2018-08-27 13:40:24,947] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:08: scheduled__2015-06-01T00:00:08, externally triggered: False>
+[2018-08-27 13:40:24,958] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:09: scheduled__2015-06-01T00:00:09, externally triggered: False>
+[2018-08-27 13:40:24,973] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:10: scheduled__2015-06-01T00:00:10, externally triggered: False>
+[2018-08-27 13:40:24,999] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:40:25,037] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:08 [scheduled]> in ORM
+[2018-08-27 13:40:25,090] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:10 [scheduled]> in ORM
+[2018-08-27 13:40:25,127] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.435 seconds
+[2018-08-27 13:40:59,379] {jobs.py:368} INFO - Started process (PID=32351) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:40:59,382] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:40:59,389] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:40:59,461] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:40:59,569] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:11: scheduled__2015-06-01T00:00:11, externally triggered: False>
+[2018-08-27 13:40:59,572] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:07: scheduled__2015-06-01T00:00:07, externally triggered: False>
+[2018-08-27 13:40:59,619] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:08: scheduled__2015-06-01T00:00:08, externally triggered: False>
+[2018-08-27 13:40:59,636] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:09: scheduled__2015-06-01T00:00:09, externally triggered: False>
+[2018-08-27 13:40:59,653] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:10: scheduled__2015-06-01T00:00:10, externally triggered: False>
+[2018-08-27 13:40:59,666] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:11: scheduled__2015-06-01T00:00:11, externally triggered: False>
+[2018-08-27 13:40:59,697] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:40:59,748] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:09 [scheduled]> in ORM
+[2018-08-27 13:40:59,810] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:11 [scheduled]> in ORM
+[2018-08-27 13:40:59,869] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.490 seconds
+[2018-08-27 13:41:34,159] {jobs.py:368} INFO - Started process (PID=32407) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:41:34,161] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:41:34,166] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:41:34,264] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:41:34,452] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:12: scheduled__2015-06-01T00:00:12, externally triggered: False>
+[2018-08-27 13:41:34,453] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:08: scheduled__2015-06-01T00:00:08, externally triggered: False>
+[2018-08-27 13:41:34,553] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:09: scheduled__2015-06-01T00:00:09, externally triggered: False>
+[2018-08-27 13:41:34,564] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:10: scheduled__2015-06-01T00:00:10, externally triggered: False>
+[2018-08-27 13:41:34,577] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:11: scheduled__2015-06-01T00:00:11, externally triggered: False>
+[2018-08-27 13:41:34,593] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:12: scheduled__2015-06-01T00:00:12, externally triggered: False>
+[2018-08-27 13:41:34,627] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:41:34,675] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:10 [scheduled]> in ORM
+[2018-08-27 13:41:34,708] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:12 [scheduled]> in ORM
+[2018-08-27 13:41:34,763] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.604 seconds
+[2018-08-27 13:42:09,063] {jobs.py:368} INFO - Started process (PID=32459) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:42:09,065] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:42:09,070] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:42:09,124] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:42:09,225] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:13: scheduled__2015-06-01T00:00:13, externally triggered: False>
+[2018-08-27 13:42:09,227] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:09: scheduled__2015-06-01T00:00:09, externally triggered: False>
+[2018-08-27 13:42:09,275] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:10: scheduled__2015-06-01T00:00:10, externally triggered: False>
+[2018-08-27 13:42:09,289] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:11: scheduled__2015-06-01T00:00:11, externally triggered: False>
+[2018-08-27 13:42:09,303] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:12: scheduled__2015-06-01T00:00:12, externally triggered: False>
+[2018-08-27 13:42:09,318] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:13: scheduled__2015-06-01T00:00:13, externally triggered: False>
+[2018-08-27 13:42:09,351] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:42:09,387] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:11 [scheduled]> in ORM
+[2018-08-27 13:42:09,421] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:13 [scheduled]> in ORM
+[2018-08-27 13:42:09,475] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.413 seconds
+[2018-08-27 13:42:43,510] {jobs.py:368} INFO - Started process (PID=32533) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:42:43,513] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:42:43,517] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:42:43,643] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:42:43,756] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:14: scheduled__2015-06-01T00:00:14, externally triggered: False>
+[2018-08-27 13:42:43,760] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:10: scheduled__2015-06-01T00:00:10, externally triggered: False>
+[2018-08-27 13:42:43,828] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:11: scheduled__2015-06-01T00:00:11, externally triggered: False>
+[2018-08-27 13:42:43,871] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:12: scheduled__2015-06-01T00:00:12, externally triggered: False>
+[2018-08-27 13:42:43,891] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:13: scheduled__2015-06-01T00:00:13, externally triggered: False>
+[2018-08-27 13:42:43,926] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:14: scheduled__2015-06-01T00:00:14, externally triggered: False>
+[2018-08-27 13:42:43,969] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:42:44,012] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:12 [scheduled]> in ORM
+[2018-08-27 13:42:44,049] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:14 [scheduled]> in ORM
+[2018-08-27 13:42:44,086] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.576 seconds
+[2018-08-27 13:43:18,500] {jobs.py:368} INFO - Started process (PID=32637) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:43:18,503] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:43:18,508] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:43:18,622] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:43:18,726] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:15: scheduled__2015-06-01T00:00:15, externally triggered: False>
+[2018-08-27 13:43:18,729] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:11: scheduled__2015-06-01T00:00:11, externally triggered: False>
+[2018-08-27 13:43:18,801] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:12: scheduled__2015-06-01T00:00:12, externally triggered: False>
+[2018-08-27 13:43:18,828] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:13: scheduled__2015-06-01T00:00:13, externally triggered: False>
+[2018-08-27 13:43:18,845] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:14: scheduled__2015-06-01T00:00:14, externally triggered: False>
+[2018-08-27 13:43:18,867] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:15: scheduled__2015-06-01T00:00:15, externally triggered: False>
+[2018-08-27 13:43:18,901] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:43:18,989] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:13 [scheduled]> in ORM
+[2018-08-27 13:43:19,023] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:15 [scheduled]> in ORM
+[2018-08-27 13:43:19,073] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.574 seconds
+[2018-08-27 13:43:53,488] {jobs.py:368} INFO - Started process (PID=32693) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:43:53,490] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:43:53,494] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:43:53,592] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:43:53,692] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:16: scheduled__2015-06-01T00:00:16, externally triggered: False>
+[2018-08-27 13:43:53,694] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:12: scheduled__2015-06-01T00:00:12, externally triggered: False>
+[2018-08-27 13:43:53,742] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:13: scheduled__2015-06-01T00:00:13, externally triggered: False>
+[2018-08-27 13:43:53,756] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:14: scheduled__2015-06-01T00:00:14, externally triggered: False>
+[2018-08-27 13:43:53,770] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:15: scheduled__2015-06-01T00:00:15, externally triggered: False>
+[2018-08-27 13:43:53,786] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:16: scheduled__2015-06-01T00:00:16, externally triggered: False>
+[2018-08-27 13:43:53,834] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:43:53,936] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:14 [scheduled]> in ORM
+[2018-08-27 13:43:53,987] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:16 [scheduled]> in ORM
+[2018-08-27 13:43:54,042] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.554 seconds
+[2018-08-27 13:44:28,178] {jobs.py:368} INFO - Started process (PID=305) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:44:28,181] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:44:28,186] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:44:28,264] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:44:28,404] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:17: scheduled__2015-06-01T00:00:17, externally triggered: False>
+[2018-08-27 13:44:28,410] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:13: scheduled__2015-06-01T00:00:13, externally triggered: False>
+[2018-08-27 13:44:28,479] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:14: scheduled__2015-06-01T00:00:14, externally triggered: False>
+[2018-08-27 13:44:28,498] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:15: scheduled__2015-06-01T00:00:15, externally triggered: False>
+[2018-08-27 13:44:28,512] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:16: scheduled__2015-06-01T00:00:16, externally triggered: False>
+[2018-08-27 13:44:28,539] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:17: scheduled__2015-06-01T00:00:17, externally triggered: False>
+[2018-08-27 13:44:28,580] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:44:28,772] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:15 [scheduled]> in ORM
+[2018-08-27 13:44:29,588] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:17 [scheduled]> in ORM
+[2018-08-27 13:44:29,659] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 1.481 seconds
+[2018-08-27 13:45:03,117] {jobs.py:368} INFO - Started process (PID=408) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:45:03,118] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:45:03,123] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:45:03,226] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:45:03,396] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:18: scheduled__2015-06-01T00:00:18, externally triggered: False>
+[2018-08-27 13:45:03,398] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:14: scheduled__2015-06-01T00:00:14, externally triggered: False>
+[2018-08-27 13:45:03,474] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:15: scheduled__2015-06-01T00:00:15, externally triggered: False>
+[2018-08-27 13:45:03,488] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:16: scheduled__2015-06-01T00:00:16, externally triggered: False>
+[2018-08-27 13:45:03,500] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:17: scheduled__2015-06-01T00:00:17, externally triggered: False>
+[2018-08-27 13:45:03,513] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:18: scheduled__2015-06-01T00:00:18, externally triggered: False>
+[2018-08-27 13:45:03,539] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:45:03,620] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:16 [scheduled]> in ORM
+[2018-08-27 13:45:03,673] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:18 [scheduled]> in ORM
+[2018-08-27 13:45:03,728] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.611 seconds
+[2018-08-27 13:45:38,103] {jobs.py:368} INFO - Started process (PID=465) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:45:38,106] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:45:38,110] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:45:38,169] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:45:38,310] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:19: scheduled__2015-06-01T00:00:19, externally triggered: False>
+[2018-08-27 13:45:38,323] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:15: scheduled__2015-06-01T00:00:15, externally triggered: False>
+[2018-08-27 13:45:38,389] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:16: scheduled__2015-06-01T00:00:16, externally triggered: False>
+[2018-08-27 13:45:38,406] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:17: scheduled__2015-06-01T00:00:17, externally triggered: False>
+[2018-08-27 13:45:38,433] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:18: scheduled__2015-06-01T00:00:18, externally triggered: False>
+[2018-08-27 13:45:38,480] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:19: scheduled__2015-06-01T00:00:19, externally triggered: False>
+[2018-08-27 13:45:38,554] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:45:38,622] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:17 [scheduled]> in ORM
+[2018-08-27 13:45:38,672] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:19 [scheduled]> in ORM
+[2018-08-27 13:45:38,777] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.675 seconds
+[2018-08-27 13:46:12,746] {jobs.py:368} INFO - Started process (PID=558) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:46:12,748] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:46:12,752] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:46:12,820] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:46:13,006] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:20: scheduled__2015-06-01T00:00:20, externally triggered: False>
+[2018-08-27 13:46:13,009] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:16: scheduled__2015-06-01T00:00:16, externally triggered: False>
+[2018-08-27 13:46:13,121] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:17: scheduled__2015-06-01T00:00:17, externally triggered: False>
+[2018-08-27 13:46:13,144] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:18: scheduled__2015-06-01T00:00:18, externally triggered: False>
+[2018-08-27 13:46:13,157] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:19: scheduled__2015-06-01T00:00:19, externally triggered: False>
+[2018-08-27 13:46:13,179] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:20: scheduled__2015-06-01T00:00:20, externally triggered: False>
+[2018-08-27 13:46:13,215] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:46:13,298] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:18 [scheduled]> in ORM
+[2018-08-27 13:46:13,359] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:20 [scheduled]> in ORM
+[2018-08-27 13:46:13,414] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.668 seconds
+[2018-08-27 13:46:47,499] {jobs.py:368} INFO - Started process (PID=695) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:46:47,501] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:46:47,505] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:46:47,584] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:46:47,684] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:21: scheduled__2015-06-01T00:00:21, externally triggered: False>
+[2018-08-27 13:46:47,686] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:17: scheduled__2015-06-01T00:00:17, externally triggered: False>
+[2018-08-27 13:46:47,784] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:18: scheduled__2015-06-01T00:00:18, externally triggered: False>
+[2018-08-27 13:46:47,797] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:19: scheduled__2015-06-01T00:00:19, externally triggered: False>
+[2018-08-27 13:46:47,808] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:20: scheduled__2015-06-01T00:00:20, externally triggered: False>
+[2018-08-27 13:46:47,823] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:21: scheduled__2015-06-01T00:00:21, externally triggered: False>
+[2018-08-27 13:46:47,851] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:46:47,937] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:19 [scheduled]> in ORM
+[2018-08-27 13:46:47,986] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:21 [scheduled]> in ORM
+[2018-08-27 13:46:48,044] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.545 seconds
+[2018-08-27 13:47:22,311] {jobs.py:368} INFO - Started process (PID=806) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:47:22,312] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:47:22,317] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:47:22,426] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:47:22,604] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:22: scheduled__2015-06-01T00:00:22, externally triggered: False>
+[2018-08-27 13:47:22,607] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:18: scheduled__2015-06-01T00:00:18, externally triggered: False>
+[2018-08-27 13:47:22,652] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:19: scheduled__2015-06-01T00:00:19, externally triggered: False>
+[2018-08-27 13:47:22,666] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:20: scheduled__2015-06-01T00:00:20, externally triggered: False>
+[2018-08-27 13:47:22,676] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:21: scheduled__2015-06-01T00:00:21, externally triggered: False>
+[2018-08-27 13:47:22,689] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:22: scheduled__2015-06-01T00:00:22, externally triggered: False>
+[2018-08-27 13:47:22,716] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:47:22,776] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:20 [scheduled]> in ORM
+[2018-08-27 13:47:22,860] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:22 [scheduled]> in ORM
+[2018-08-27 13:47:22,942] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.631 seconds
+[2018-08-27 13:47:57,301] {jobs.py:368} INFO - Started process (PID=894) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:47:57,303] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:47:57,307] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:47:57,391] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:47:57,494] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:23: scheduled__2015-06-01T00:00:23, externally triggered: False>
+[2018-08-27 13:47:57,496] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:19: scheduled__2015-06-01T00:00:19, externally triggered: False>
+[2018-08-27 13:47:57,546] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:20: scheduled__2015-06-01T00:00:20, externally triggered: False>
+[2018-08-27 13:47:57,556] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:21: scheduled__2015-06-01T00:00:21, externally triggered: False>
+[2018-08-27 13:47:57,565] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:22: scheduled__2015-06-01T00:00:22, externally triggered: False>
+[2018-08-27 13:47:57,576] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:23: scheduled__2015-06-01T00:00:23, externally triggered: False>
+[2018-08-27 13:47:57,600] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:47:57,633] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:21 [scheduled]> in ORM
+[2018-08-27 13:47:57,667] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:23 [scheduled]> in ORM
+[2018-08-27 13:47:57,765] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.464 seconds
+[2018-08-27 13:48:31,855] {jobs.py:368} INFO - Started process (PID=985) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:48:31,857] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:48:31,866] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:48:32,531] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:48:33,109] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:24: scheduled__2015-06-01T00:00:24, externally triggered: False>
+[2018-08-27 13:48:33,111] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:20: scheduled__2015-06-01T00:00:20, externally triggered: False>
+[2018-08-27 13:48:33,200] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:21: scheduled__2015-06-01T00:00:21, externally triggered: False>
+[2018-08-27 13:48:33,211] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:22: scheduled__2015-06-01T00:00:22, externally triggered: False>
+[2018-08-27 13:48:33,221] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:23: scheduled__2015-06-01T00:00:23, externally triggered: False>
+[2018-08-27 13:48:33,235] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:24: scheduled__2015-06-01T00:00:24, externally triggered: False>
+[2018-08-27 13:48:33,264] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:48:33,333] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:22 [scheduled]> in ORM
+[2018-08-27 13:48:33,390] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:24 [scheduled]> in ORM
+[2018-08-27 13:48:33,427] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 1.572 seconds
+[2018-08-27 13:49:07,909] {jobs.py:368} INFO - Started process (PID=1042) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:49:07,912] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:49:07,916] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:49:07,988] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:49:08,163] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:25: scheduled__2015-06-01T00:00:25, externally triggered: False>
+[2018-08-27 13:49:08,167] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:21: scheduled__2015-06-01T00:00:21, externally triggered: False>
+[2018-08-27 13:49:08,291] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:22: scheduled__2015-06-01T00:00:22, externally triggered: False>
+[2018-08-27 13:49:08,303] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:23: scheduled__2015-06-01T00:00:23, externally triggered: False>
+[2018-08-27 13:49:08,327] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:24: scheduled__2015-06-01T00:00:24, externally triggered: False>
+[2018-08-27 13:49:08,349] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:25: scheduled__2015-06-01T00:00:25, externally triggered: False>
+[2018-08-27 13:49:08,385] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:49:08,469] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:23 [scheduled]> in ORM
+[2018-08-27 13:49:08,580] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:25 [scheduled]> in ORM
+[2018-08-27 13:49:08,865] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.956 seconds
+[2018-08-27 13:49:43,147] {jobs.py:368} INFO - Started process (PID=1107) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:49:43,148] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:49:43,153] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:49:43,325] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:49:43,428] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:26: scheduled__2015-06-01T00:00:26, externally triggered: False>
+[2018-08-27 13:49:43,430] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:22: scheduled__2015-06-01T00:00:22, externally triggered: False>
+[2018-08-27 13:49:43,521] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:23: scheduled__2015-06-01T00:00:23, externally triggered: False>
+[2018-08-27 13:49:43,533] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:24: scheduled__2015-06-01T00:00:24, externally triggered: False>
+[2018-08-27 13:49:43,551] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:25: scheduled__2015-06-01T00:00:25, externally triggered: False>
+[2018-08-27 13:49:43,571] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:26: scheduled__2015-06-01T00:00:26, externally triggered: False>
+[2018-08-27 13:49:43,663] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:49:43,760] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:24 [scheduled]> in ORM
+[2018-08-27 13:49:43,795] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:26 [scheduled]> in ORM
+[2018-08-27 13:49:43,830] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.683 seconds
+[2018-08-27 13:50:18,319] {jobs.py:368} INFO - Started process (PID=1170) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:50:18,321] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:50:18,325] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:50:18,460] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.141 seconds
+[2018-08-27 13:50:41,740] {jobs.py:368} INFO - Started process (PID=1203) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:50:41,742] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:50:41,747] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:50:41,803] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.063 seconds
+[2018-08-27 13:51:05,369] {jobs.py:368} INFO - Started process (PID=1281) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:51:05,370] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:51:05,376] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:51:05,519] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.150 seconds
+[2018-08-27 13:51:28,939] {jobs.py:368} INFO - Started process (PID=1353) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:51:28,941] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:51:28,948] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:51:29,004] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.064 seconds
+[2018-08-27 13:51:52,132] {jobs.py:368} INFO - Started process (PID=1421) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:51:52,134] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:51:52,138] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:51:52,223] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.090 seconds
+[2018-08-27 13:52:15,553] {jobs.py:368} INFO - Started process (PID=1477) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:52:15,555] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:52:15,565] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:52:15,642] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.089 seconds
+[2018-08-27 13:52:38,810] {jobs.py:368} INFO - Started process (PID=1515) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:52:38,813] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:52:38,817] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:52:38,882] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.071 seconds
+[2018-08-27 13:53:02,181] {jobs.py:368} INFO - Started process (PID=1563) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:53:02,183] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:53:02,187] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:53:02,328] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.147 seconds
+[2018-08-27 13:53:25,589] {jobs.py:368} INFO - Started process (PID=1606) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:53:25,593] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:53:25,597] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:53:25,656] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.067 seconds
+[2018-08-27 13:53:48,842] {jobs.py:368} INFO - Started process (PID=1688) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:53:48,844] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:53:48,849] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:53:48,997] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.154 seconds
+[2018-08-27 13:54:12,289] {jobs.py:368} INFO - Started process (PID=1733) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:54:12,291] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:54:12,295] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:54:12,450] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.161 seconds
+[2018-08-27 13:54:35,750] {jobs.py:368} INFO - Started process (PID=1777) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:54:35,752] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:54:35,756] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:54:35,841] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:54:35,946] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:27: scheduled__2015-06-01T00:00:27, externally triggered: False>
+[2018-08-27 13:54:35,950] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:23: scheduled__2015-06-01T00:00:23, externally triggered: False>
+[2018-08-27 13:54:35,996] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:24: scheduled__2015-06-01T00:00:24, externally triggered: False>
+[2018-08-27 13:54:36,008] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:25: scheduled__2015-06-01T00:00:25, externally triggered: False>
+[2018-08-27 13:54:36,024] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:26: scheduled__2015-06-01T00:00:26, externally triggered: False>
+[2018-08-27 13:54:36,042] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:27: scheduled__2015-06-01T00:00:27, externally triggered: False>
+[2018-08-27 13:54:36,076] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:54:36,142] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:25 [scheduled]> in ORM
+[2018-08-27 13:54:36,197] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:27 [scheduled]> in ORM
+[2018-08-27 13:54:36,250] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.500 seconds
+[2018-08-27 13:54:59,092] {jobs.py:368} INFO - Started process (PID=1855) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:54:59,093] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:54:59,098] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:54:59,238] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:54:59,341] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:28: scheduled__2015-06-01T00:00:28, externally triggered: False>
+[2018-08-27 13:54:59,344] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:24: scheduled__2015-06-01T00:00:24, externally triggered: False>
+[2018-08-27 13:54:59,355] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:25: scheduled__2015-06-01T00:00:25, externally triggered: False>
+[2018-08-27 13:54:59,374] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:26: scheduled__2015-06-01T00:00:26, externally triggered: False>
+[2018-08-27 13:54:59,388] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:27: scheduled__2015-06-01T00:00:27, externally triggered: False>
+[2018-08-27 13:54:59,405] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:28: scheduled__2015-06-01T00:00:28, externally triggered: False>
+[2018-08-27 13:54:59,436] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:54:59,482] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:28 [scheduled]> in ORM
+[2018-08-27 13:54:59,551] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.459 seconds
+[2018-08-27 13:55:45,109] {jobs.py:368} INFO - Started process (PID=1943) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:55:45,111] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:55:45,115] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:55:45,182] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:55:45,285] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:29: scheduled__2015-06-01T00:00:29, externally triggered: False>
+[2018-08-27 13:55:45,287] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:24: scheduled__2015-06-01T00:00:24, externally triggered: False>
+[2018-08-27 13:55:45,337] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:25: scheduled__2015-06-01T00:00:25, externally triggered: False>
+[2018-08-27 13:55:45,431] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:26: scheduled__2015-06-01T00:00:26, externally triggered: False>
+[2018-08-27 13:55:45,442] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:27: scheduled__2015-06-01T00:00:27, externally triggered: False>
+[2018-08-27 13:55:45,453] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:28: scheduled__2015-06-01T00:00:28, externally triggered: False>
+[2018-08-27 13:55:45,465] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:29: scheduled__2015-06-01T00:00:29, externally triggered: False>
+[2018-08-27 13:55:45,489] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:55:45,577] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:26 [scheduled]> in ORM
+[2018-08-27 13:55:45,629] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:27 [scheduled]> in ORM
+[2018-08-27 13:55:45,681] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:29 [scheduled]> in ORM
+[2018-08-27 13:55:45,736] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.627 seconds
+[2018-08-27 13:56:14,114] {jobs.py:368} INFO - Started process (PID=2026) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:56:14,115] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:56:14,120] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:56:14,181] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:56:14,282] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:30: scheduled__2015-06-01T00:00:30, externally triggered: False>
+[2018-08-27 13:56:14,284] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:26: scheduled__2015-06-01T00:00:26, externally triggered: False>
+[2018-08-27 13:56:14,293] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:27: scheduled__2015-06-01T00:00:27, externally triggered: False>
+[2018-08-27 13:56:14,303] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:28: scheduled__2015-06-01T00:00:28, externally triggered: False>
+[2018-08-27 13:56:14,313] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:29: scheduled__2015-06-01T00:00:29, externally triggered: False>
+[2018-08-27 13:56:14,325] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:30: scheduled__2015-06-01T00:00:30, externally triggered: False>
+[2018-08-27 13:56:14,346] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:56:14,408] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:28 [scheduled]> in ORM
+[2018-08-27 13:56:14,442] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:30 [scheduled]> in ORM
+[2018-08-27 13:56:14,470] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.357 seconds
+[2018-08-27 13:56:54,565] {jobs.py:368} INFO - Started process (PID=2134) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:56:54,567] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:56:54,572] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:56:54,660] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:56:54,813] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:31: scheduled__2015-06-01T00:00:31, externally triggered: False>
+[2018-08-27 13:56:54,815] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:26: scheduled__2015-06-01T00:00:26, externally triggered: False>
+[2018-08-27 13:56:54,864] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:27: scheduled__2015-06-01T00:00:27, externally triggered: False>
+[2018-08-27 13:56:54,917] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:28: scheduled__2015-06-01T00:00:28, externally triggered: False>
+[2018-08-27 13:56:54,927] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:29: scheduled__2015-06-01T00:00:29, externally triggered: False>
+[2018-08-27 13:56:54,939] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:30: scheduled__2015-06-01T00:00:30, externally triggered: False>
+[2018-08-27 13:56:54,951] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:31: scheduled__2015-06-01T00:00:31, externally triggered: False>
+[2018-08-27 13:56:54,976] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:56:55,070] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:29 [scheduled]> in ORM
+[2018-08-27 13:56:55,179] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:31 [scheduled]> in ORM
+[2018-08-27 13:56:55,231] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.666 seconds
+[2018-08-27 13:58:29,214] {jobs.py:368} INFO - Started process (PID=2319) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:58:29,215] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:58:29,220] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:58:29,277] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:58:29,380] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:32: scheduled__2015-06-01T00:00:32, externally triggered: False>
+[2018-08-27 13:58:29,382] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:28: scheduled__2015-06-01T00:00:28, externally triggered: False>
+[2018-08-27 13:58:29,391] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:29: scheduled__2015-06-01T00:00:29, externally triggered: False>
+[2018-08-27 13:58:29,402] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:30: scheduled__2015-06-01T00:00:30, externally triggered: False>
+[2018-08-27 13:58:29,431] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:31: scheduled__2015-06-01T00:00:31, externally triggered: False>
+[2018-08-27 13:58:29,441] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:32: scheduled__2015-06-01T00:00:32, externally triggered: False>
+[2018-08-27 13:58:29,477] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:58:29,517] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:28 [scheduled]> in ORM
+[2018-08-27 13:58:29,551] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:29 [scheduled]> in ORM
+[2018-08-27 13:58:29,606] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:30 [scheduled]> in ORM
+[2018-08-27 13:58:29,662] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:31 [scheduled]> in ORM
+[2018-08-27 13:58:29,728] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:32 [scheduled]> in ORM
+[2018-08-27 13:58:29,805] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.591 seconds
+[2018-08-27 13:58:30,246] {jobs.py:368} INFO - Started process (PID=2323) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:58:30,251] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:58:30,256] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:58:30,320] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:58:30,422] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:33: scheduled__2015-06-01T00:00:33, externally triggered: False>
+[2018-08-27 13:58:30,424] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:28: scheduled__2015-06-01T00:00:28, externally triggered: False>
+[2018-08-27 13:58:30,444] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:29: scheduled__2015-06-01T00:00:29, externally triggered: False>
+[2018-08-27 13:58:30,487] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:30: scheduled__2015-06-01T00:00:30, externally triggered: False>
+[2018-08-27 13:58:30,499] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:31: scheduled__2015-06-01T00:00:31, externally triggered: False>
+[2018-08-27 13:58:30,527] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:32: scheduled__2015-06-01T00:00:32, externally triggered: False>
+[2018-08-27 13:58:30,557] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:33: scheduled__2015-06-01T00:00:33, externally triggered: False>
+[2018-08-27 13:58:30,593] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:58:30,658] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:33 [scheduled]> in ORM
+[2018-08-27 13:58:30,696] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.450 seconds
+[2018-08-27 13:59:50,225] {jobs.py:368} INFO - Started process (PID=2515) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:59:50,228] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 13:59:50,233] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:59:50,318] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 13:59:50,465] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:34: scheduled__2015-06-01T00:00:34, externally triggered: False>
+[2018-08-27 13:59:50,468] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:28: scheduled__2015-06-01T00:00:28, externally triggered: False>
+[2018-08-27 13:59:50,514] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:29: scheduled__2015-06-01T00:00:29, externally triggered: False>
+[2018-08-27 13:59:50,575] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:30: scheduled__2015-06-01T00:00:30, externally triggered: False>
+[2018-08-27 13:59:50,629] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:31: scheduled__2015-06-01T00:00:31, externally triggered: False>
+[2018-08-27 13:59:50,644] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:32: scheduled__2015-06-01T00:00:32, externally triggered: False>
+[2018-08-27 13:59:50,661] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:33: scheduled__2015-06-01T00:00:33, externally triggered: False>
+[2018-08-27 13:59:50,680] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:34: scheduled__2015-06-01T00:00:34, externally triggered: False>
+[2018-08-27 13:59:50,713] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 13:59:50,808] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:31 [scheduled]> in ORM
+[2018-08-27 13:59:50,861] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:32 [scheduled]> in ORM
+[2018-08-27 13:59:50,913] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:34 [scheduled]> in ORM
+[2018-08-27 13:59:50,971] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.746 seconds
+[2018-08-27 14:00:02,804] {jobs.py:368} INFO - Started process (PID=2554) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:00:02,805] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:00:02,810] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:00:02,864] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:00:03,107] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:35: scheduled__2015-06-01T00:00:35, externally triggered: False>
+[2018-08-27 14:00:03,109] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:31: scheduled__2015-06-01T00:00:31, externally triggered: False>
+[2018-08-27 14:00:03,119] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:32: scheduled__2015-06-01T00:00:32, externally triggered: False>
+[2018-08-27 14:00:03,133] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:33: scheduled__2015-06-01T00:00:33, externally triggered: False>
+[2018-08-27 14:00:03,145] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:34: scheduled__2015-06-01T00:00:34, externally triggered: False>
+[2018-08-27 14:00:03,160] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:35: scheduled__2015-06-01T00:00:35, externally triggered: False>
+[2018-08-27 14:00:03,192] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:00:03,247] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:33 [scheduled]> in ORM
+[2018-08-27 14:00:03,307] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:35 [scheduled]> in ORM
+[2018-08-27 14:00:03,360] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.556 seconds
+[2018-08-27 14:00:59,679] {jobs.py:368} INFO - Started process (PID=2798) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:00:59,680] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:00:59,686] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:00:59,762] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:00:59,895] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:36: scheduled__2015-06-01T00:00:36, externally triggered: False>
+[2018-08-27 14:00:59,899] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:31: scheduled__2015-06-01T00:00:31, externally triggered: False>
+[2018-08-27 14:01:00,009] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:32: scheduled__2015-06-01T00:00:32, externally triggered: False>
+[2018-08-27 14:01:00,093] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:33: scheduled__2015-06-01T00:00:33, externally triggered: False>
+[2018-08-27 14:01:00,118] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:34: scheduled__2015-06-01T00:00:34, externally triggered: False>
+[2018-08-27 14:01:00,135] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:35: scheduled__2015-06-01T00:00:35, externally triggered: False>
+[2018-08-27 14:01:00,159] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:36: scheduled__2015-06-01T00:00:36, externally triggered: False>
+[2018-08-27 14:01:00,205] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:01:00,264] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:34 [scheduled]> in ORM
+[2018-08-27 14:01:00,363] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:36 [scheduled]> in ORM
+[2018-08-27 14:01:00,426] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.747 seconds
+[2018-08-27 14:01:34,424] {jobs.py:368} INFO - Started process (PID=2912) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:01:34,425] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:01:34,429] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:01:34,478] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.054 seconds
+[2018-08-27 14:01:57,564] {jobs.py:368} INFO - Started process (PID=2969) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:01:57,565] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:01:57,569] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:01:57,633] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.070 seconds
+[2018-08-27 14:02:21,312] {jobs.py:368} INFO - Started process (PID=3053) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:02:21,314] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:02:21,318] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:02:21,370] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.059 seconds
+[2018-08-27 14:02:44,476] {jobs.py:368} INFO - Started process (PID=3097) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:02:44,478] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:02:44,483] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:02:44,979] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.504 seconds
+[2018-08-27 14:03:08,179] {jobs.py:368} INFO - Started process (PID=3166) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:08,181] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:08,196] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:08,312] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.133 seconds
+[2018-08-27 14:03:31,522] {jobs.py:368} INFO - Started process (PID=3230) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:31,525] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:31,531] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:31,616] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.094 seconds
+[2018-08-27 14:03:32,552] {jobs.py:368} INFO - Started process (PID=3234) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:32,554] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:32,560] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:32,649] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.097 seconds
+[2018-08-27 14:03:33,561] {jobs.py:368} INFO - Started process (PID=3244) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:33,562] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:33,566] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:33,683] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.122 seconds
+[2018-08-27 14:03:34,574] {jobs.py:368} INFO - Started process (PID=3248) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:34,576] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:34,580] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:34,664] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.091 seconds
+[2018-08-27 14:03:35,585] {jobs.py:368} INFO - Started process (PID=3252) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:35,586] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:35,590] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:35,727] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.143 seconds
+[2018-08-27 14:03:36,669] {jobs.py:368} INFO - Started process (PID=3257) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:36,670] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:36,674] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:36,783] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.114 seconds
+[2018-08-27 14:03:37,681] {jobs.py:368} INFO - Started process (PID=3264) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:37,683] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:37,687] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:37,852] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.171 seconds
+[2018-08-27 14:03:38,695] {jobs.py:368} INFO - Started process (PID=3268) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:38,696] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:38,700] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:38,756] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.061 seconds
+[2018-08-27 14:03:39,706] {jobs.py:368} INFO - Started process (PID=3272) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:39,707] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:39,712] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:39,778] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.072 seconds
+[2018-08-27 14:03:40,719] {jobs.py:368} INFO - Started process (PID=3276) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:40,722] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:40,725] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:40,875] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.156 seconds
+[2018-08-27 14:03:41,818] {jobs.py:368} INFO - Started process (PID=3280) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:41,819] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:41,823] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:41,943] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.125 seconds
+[2018-08-27 14:03:42,824] {jobs.py:368} INFO - Started process (PID=3284) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:42,825] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:42,829] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:42,999] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.175 seconds
+[2018-08-27 14:03:43,837] {jobs.py:368} INFO - Started process (PID=3288) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:43,838] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:43,842] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:44,053] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.216 seconds
+[2018-08-27 14:03:44,844] {jobs.py:368} INFO - Started process (PID=3292) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:44,846] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:44,855] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:44,925] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.081 seconds
+[2018-08-27 14:03:45,856] {jobs.py:368} INFO - Started process (PID=3296) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:45,858] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:45,862] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:46,151] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.295 seconds
+[2018-08-27 14:03:47,008] {jobs.py:368} INFO - Started process (PID=3301) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:47,009] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:47,013] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:47,071] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.063 seconds
+[2018-08-27 14:03:48,020] {jobs.py:368} INFO - Started process (PID=3305) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:48,022] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:48,027] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:48,119] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.099 seconds
+[2018-08-27 14:03:49,033] {jobs.py:368} INFO - Started process (PID=3309) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:49,035] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:49,039] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:49,113] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.080 seconds
+[2018-08-27 14:03:50,048] {jobs.py:368} INFO - Started process (PID=3313) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:50,049] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:50,054] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:50,121] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.073 seconds
+[2018-08-27 14:03:51,060] {jobs.py:368} INFO - Started process (PID=3317) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:51,061] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:51,066] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:51,179] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.120 seconds
+[2018-08-27 14:03:52,122] {jobs.py:368} INFO - Started process (PID=3321) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:52,124] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:52,130] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:52,429] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.307 seconds
+[2018-08-27 14:03:53,130] {jobs.py:368} INFO - Started process (PID=3331) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:53,132] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:53,138] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:53,231] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.101 seconds
+[2018-08-27 14:03:54,142] {jobs.py:368} INFO - Started process (PID=3335) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:54,144] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:54,148] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:54,202] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.060 seconds
+[2018-08-27 14:03:55,154] {jobs.py:368} INFO - Started process (PID=3339) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:55,155] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:55,160] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:55,238] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.084 seconds
+[2018-08-27 14:03:56,163] {jobs.py:368} INFO - Started process (PID=3343) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:56,164] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:56,170] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:56,237] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.074 seconds
+[2018-08-27 14:03:57,209] {jobs.py:368} INFO - Started process (PID=3348) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:57,210] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:57,214] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:57,310] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.101 seconds
+[2018-08-27 14:03:58,220] {jobs.py:368} INFO - Started process (PID=3352) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:58,222] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:58,227] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:58,314] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.094 seconds
+[2018-08-27 14:03:59,233] {jobs.py:368} INFO - Started process (PID=3356) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:59,234] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:03:59,238] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:03:59,335] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.102 seconds
+[2018-08-27 14:04:00,244] {jobs.py:368} INFO - Started process (PID=3360) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:00,245] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:00,250] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:00,354] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.110 seconds
+[2018-08-27 14:04:01,251] {jobs.py:368} INFO - Started process (PID=3364) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:01,252] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:01,256] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:01,338] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.088 seconds
+[2018-08-27 14:04:02,342] {jobs.py:368} INFO - Started process (PID=3368) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:02,345] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:02,349] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:02,440] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.097 seconds
+[2018-08-27 14:04:03,356] {jobs.py:368} INFO - Started process (PID=3372) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:03,358] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:03,362] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:03,446] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.090 seconds
+[2018-08-27 14:04:04,364] {jobs.py:368} INFO - Started process (PID=3376) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:04,367] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:04,373] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:04,463] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.099 seconds
+[2018-08-27 14:04:05,381] {jobs.py:368} INFO - Started process (PID=3380) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:05,383] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:05,389] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:05,450] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.069 seconds
+[2018-08-27 14:04:06,392] {jobs.py:368} INFO - Started process (PID=3384) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:06,394] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:06,398] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:06,473] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.081 seconds
+[2018-08-27 14:04:07,444] {jobs.py:368} INFO - Started process (PID=3388) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:07,446] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:07,450] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:07,507] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.063 seconds
+[2018-08-27 14:04:08,456] {jobs.py:368} INFO - Started process (PID=3396) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:08,458] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:08,461] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:08,529] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.073 seconds
+[2018-08-27 14:04:09,465] {jobs.py:368} INFO - Started process (PID=3402) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:09,467] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:09,472] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:09,520] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.055 seconds
+[2018-08-27 14:04:10,476] {jobs.py:368} INFO - Started process (PID=3407) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:10,478] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:10,482] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:10,524] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:04:10,632] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:37: scheduled__2015-06-01T00:00:37, externally triggered: False>
+[2018-08-27 14:04:10,634] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:33: scheduled__2015-06-01T00:00:33, externally triggered: False>
+[2018-08-27 14:04:10,699] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:34: scheduled__2015-06-01T00:00:34, externally triggered: False>
+[2018-08-27 14:04:10,712] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:35: scheduled__2015-06-01T00:00:35, externally triggered: False>
+[2018-08-27 14:04:10,724] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:36: scheduled__2015-06-01T00:00:36, externally triggered: False>
+[2018-08-27 14:04:10,738] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:37: scheduled__2015-06-01T00:00:37, externally triggered: False>
+[2018-08-27 14:04:10,761] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:04:10,811] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:35 [scheduled]> in ORM
+[2018-08-27 14:04:10,846] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:37 [scheduled]> in ORM
+[2018-08-27 14:04:10,885] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.408 seconds
+[2018-08-27 14:04:11,488] {jobs.py:368} INFO - Started process (PID=3411) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:11,492] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:11,496] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:11,591] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:04:11,678] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:38: scheduled__2015-06-01T00:00:38, externally triggered: False>
+[2018-08-27 14:04:11,680] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:34: scheduled__2015-06-01T00:00:34, externally triggered: False>
+[2018-08-27 14:04:11,689] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:35: scheduled__2015-06-01T00:00:35, externally triggered: False>
+[2018-08-27 14:04:11,701] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:36: scheduled__2015-06-01T00:00:36, externally triggered: False>
+[2018-08-27 14:04:11,720] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:37: scheduled__2015-06-01T00:00:37, externally triggered: False>
+[2018-08-27 14:04:11,735] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:38: scheduled__2015-06-01T00:00:38, externally triggered: False>
+[2018-08-27 14:04:11,769] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:04:11,821] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:38 [scheduled]> in ORM
+[2018-08-27 14:04:11,859] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.371 seconds
+[2018-08-27 14:04:35,450] {jobs.py:368} INFO - Started process (PID=3452) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:35,452] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:35,456] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:35,512] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:04:35,623] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:39: scheduled__2015-06-01T00:00:39, externally triggered: False>
+[2018-08-27 14:04:35,625] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:34: scheduled__2015-06-01T00:00:34, externally triggered: False>
+[2018-08-27 14:04:35,668] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:35: scheduled__2015-06-01T00:00:35, externally triggered: False>
+[2018-08-27 14:04:35,737] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:36: scheduled__2015-06-01T00:00:36, externally triggered: False>
+[2018-08-27 14:04:35,747] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:37: scheduled__2015-06-01T00:00:37, externally triggered: False>
+[2018-08-27 14:04:35,779] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:38: scheduled__2015-06-01T00:00:38, externally triggered: False>
+[2018-08-27 14:04:35,792] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:39: scheduled__2015-06-01T00:00:39, externally triggered: False>
+[2018-08-27 14:04:35,828] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:04:35,894] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:36 [scheduled]> in ORM
+[2018-08-27 14:04:35,930] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:37 [scheduled]> in ORM
+[2018-08-27 14:04:35,966] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:39 [scheduled]> in ORM
+[2018-08-27 14:04:36,005] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.555 seconds
+[2018-08-27 14:04:42,246] {jobs.py:368} INFO - Started process (PID=3466) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:42,248] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:04:42,252] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:04:42,297] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:04:42,404] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:40: scheduled__2015-06-01T00:00:40, externally triggered: False>
+[2018-08-27 14:04:42,406] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:36: scheduled__2015-06-01T00:00:36, externally triggered: False>
+[2018-08-27 14:04:42,420] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:37: scheduled__2015-06-01T00:00:37, externally triggered: False>
+[2018-08-27 14:04:42,431] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:38: scheduled__2015-06-01T00:00:38, externally triggered: False>
+[2018-08-27 14:04:42,442] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:39: scheduled__2015-06-01T00:00:39, externally triggered: False>
+[2018-08-27 14:04:42,456] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:40: scheduled__2015-06-01T00:00:40, externally triggered: False>
+[2018-08-27 14:04:42,488] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:04:42,493] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:38 [scheduled]> in ORM
+[2018-08-27 14:04:42,523] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:40 [scheduled]> in ORM
+[2018-08-27 14:04:42,589] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.343 seconds
+[2018-08-27 14:05:00,497] {jobs.py:368} INFO - Started process (PID=3496) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:00,499] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:05:00,503] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:00,608] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:05:00,709] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:41: scheduled__2015-06-01T00:00:41, externally triggered: False>
+[2018-08-27 14:05:00,713] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:36: scheduled__2015-06-01T00:00:36, externally triggered: False>
+[2018-08-27 14:05:00,759] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:37: scheduled__2015-06-01T00:00:37, externally triggered: False>
+[2018-08-27 14:05:00,834] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:38: scheduled__2015-06-01T00:00:38, externally triggered: False>
+[2018-08-27 14:05:00,844] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:39: scheduled__2015-06-01T00:00:39, externally triggered: False>
+[2018-08-27 14:05:00,855] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:40: scheduled__2015-06-01T00:00:40, externally triggered: False>
+[2018-08-27 14:05:00,871] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:41: scheduled__2015-06-01T00:00:41, externally triggered: False>
+[2018-08-27 14:05:00,897] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:05:00,970] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:39 [scheduled]> in ORM
+[2018-08-27 14:05:01,004] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:41 [scheduled]> in ORM
+[2018-08-27 14:05:01,033] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.536 seconds
+[2018-08-27 14:05:13,026] {jobs.py:368} INFO - Started process (PID=3535) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:13,028] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:05:13,033] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:13,086] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:05:13,306] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:42: scheduled__2015-06-01T00:00:42, externally triggered: False>
+[2018-08-27 14:05:13,308] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:38: scheduled__2015-06-01T00:00:38, externally triggered: False>
+[2018-08-27 14:05:13,529] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:39: scheduled__2015-06-01T00:00:39, externally triggered: False>
+[2018-08-27 14:05:13,542] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:40: scheduled__2015-06-01T00:00:40, externally triggered: False>
+[2018-08-27 14:05:13,553] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:41: scheduled__2015-06-01T00:00:41, externally triggered: False>
+[2018-08-27 14:05:13,582] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:42: scheduled__2015-06-01T00:00:42, externally triggered: False>
+[2018-08-27 14:05:13,611] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:05:13,685] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:40 [scheduled]> in ORM
+[2018-08-27 14:05:13,737] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:42 [scheduled]> in ORM
+[2018-08-27 14:05:13,775] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.748 seconds
+[2018-08-27 14:05:25,975] {jobs.py:368} INFO - Started process (PID=3583) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:25,977] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:05:25,981] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:26,058] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:05:26,199] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:43: scheduled__2015-06-01T00:00:43, externally triggered: False>
+[2018-08-27 14:05:26,201] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:39: scheduled__2015-06-01T00:00:39, externally triggered: False>
+[2018-08-27 14:05:26,251] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:40: scheduled__2015-06-01T00:00:40, externally triggered: False>
+[2018-08-27 14:05:26,265] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:41: scheduled__2015-06-01T00:00:41, externally triggered: False>
+[2018-08-27 14:05:26,279] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:42: scheduled__2015-06-01T00:00:42, externally triggered: False>
+[2018-08-27 14:05:26,292] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:43: scheduled__2015-06-01T00:00:43, externally triggered: False>
+[2018-08-27 14:05:26,324] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:05:26,420] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:41 [scheduled]> in ORM
+[2018-08-27 14:05:26,455] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:43 [scheduled]> in ORM
+[2018-08-27 14:05:26,533] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.558 seconds
+[2018-08-27 14:05:39,092] {jobs.py:368} INFO - Started process (PID=3640) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:39,094] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:05:39,101] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:39,216] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:05:39,346] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:44: scheduled__2015-06-01T00:00:44, externally triggered: False>
+[2018-08-27 14:05:39,348] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:40: scheduled__2015-06-01T00:00:40, externally triggered: False>
+[2018-08-27 14:05:39,427] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:41: scheduled__2015-06-01T00:00:41, externally triggered: False>
+[2018-08-27 14:05:39,439] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:42: scheduled__2015-06-01T00:00:42, externally triggered: False>
+[2018-08-27 14:05:39,450] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:43: scheduled__2015-06-01T00:00:43, externally triggered: False>
+[2018-08-27 14:05:39,464] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:44: scheduled__2015-06-01T00:00:44, externally triggered: False>
+[2018-08-27 14:05:39,499] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:05:39,573] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:42 [scheduled]> in ORM
+[2018-08-27 14:05:39,608] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:44 [scheduled]> in ORM
+[2018-08-27 14:05:39,646] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.554 seconds
+[2018-08-27 14:05:51,735] {jobs.py:368} INFO - Started process (PID=3662) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:51,737] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:05:51,741] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:05:51,796] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:05:51,942] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:45: scheduled__2015-06-01T00:00:45, externally triggered: False>
+[2018-08-27 14:05:51,944] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:41: scheduled__2015-06-01T00:00:41, externally triggered: False>
+[2018-08-27 14:05:52,010] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:42: scheduled__2015-06-01T00:00:42, externally triggered: False>
+[2018-08-27 14:05:52,020] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:43: scheduled__2015-06-01T00:00:43, externally triggered: False>
+[2018-08-27 14:05:52,032] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:44: scheduled__2015-06-01T00:00:44, externally triggered: False>
+[2018-08-27 14:05:52,046] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:45: scheduled__2015-06-01T00:00:45, externally triggered: False>
+[2018-08-27 14:05:52,073] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:05:52,139] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:43 [scheduled]> in ORM
+[2018-08-27 14:05:52,191] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:45 [scheduled]> in ORM
+[2018-08-27 14:05:52,262] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.527 seconds
+[2018-08-27 14:06:04,755] {jobs.py:368} INFO - Started process (PID=3717) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:04,756] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:06:04,761] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:04,815] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:06:04,918] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:46: scheduled__2015-06-01T00:00:46, externally triggered: False>
+[2018-08-27 14:06:04,920] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:42: scheduled__2015-06-01T00:00:42, externally triggered: False>
+[2018-08-27 14:06:04,960] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:43: scheduled__2015-06-01T00:00:43, externally triggered: False>
+[2018-08-27 14:06:04,970] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:44: scheduled__2015-06-01T00:00:44, externally triggered: False>
+[2018-08-27 14:06:04,980] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:45: scheduled__2015-06-01T00:00:45, externally triggered: False>
+[2018-08-27 14:06:04,992] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:46: scheduled__2015-06-01T00:00:46, externally triggered: False>
+[2018-08-27 14:06:05,022] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:06:05,078] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:44 [scheduled]> in ORM
+[2018-08-27 14:06:05,113] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:46 [scheduled]> in ORM
+[2018-08-27 14:06:05,201] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.446 seconds
+[2018-08-27 14:06:17,382] {jobs.py:368} INFO - Started process (PID=3744) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:17,383] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:06:17,387] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:17,468] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:06:17,571] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:47: scheduled__2015-06-01T00:00:47, externally triggered: False>
+[2018-08-27 14:06:17,573] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:43: scheduled__2015-06-01T00:00:43, externally triggered: False>
+[2018-08-27 14:06:17,655] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:44: scheduled__2015-06-01T00:00:44, externally triggered: False>
+[2018-08-27 14:06:17,665] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:45: scheduled__2015-06-01T00:00:45, externally triggered: False>
+[2018-08-27 14:06:17,676] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:46: scheduled__2015-06-01T00:00:46, externally triggered: False>
+[2018-08-27 14:06:17,688] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:47: scheduled__2015-06-01T00:00:47, externally triggered: False>
+[2018-08-27 14:06:17,716] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:06:17,761] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:45 [scheduled]> in ORM
+[2018-08-27 14:06:17,796] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:47 [scheduled]> in ORM
+[2018-08-27 14:06:17,892] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.510 seconds
+[2018-08-27 14:06:30,087] {jobs.py:368} INFO - Started process (PID=3760) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:30,089] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:06:30,094] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:30,140] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:06:30,296] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:48: scheduled__2015-06-01T00:00:48, externally triggered: False>
+[2018-08-27 14:06:30,302] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:44: scheduled__2015-06-01T00:00:44, externally triggered: False>
+[2018-08-27 14:06:30,379] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:45: scheduled__2015-06-01T00:00:45, externally triggered: False>
+[2018-08-27 14:06:30,391] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:46: scheduled__2015-06-01T00:00:46, externally triggered: False>
+[2018-08-27 14:06:30,403] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:47: scheduled__2015-06-01T00:00:47, externally triggered: False>
+[2018-08-27 14:06:30,416] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:48: scheduled__2015-06-01T00:00:48, externally triggered: False>
+[2018-08-27 14:06:30,443] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:06:30,518] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:46 [scheduled]> in ORM
+[2018-08-27 14:06:30,549] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:48 [scheduled]> in ORM
+[2018-08-27 14:06:30,578] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.491 seconds
+[2018-08-27 14:06:42,591] {jobs.py:368} INFO - Started process (PID=3784) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:42,592] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:06:42,596] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:42,668] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:06:42,789] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:49: scheduled__2015-06-01T00:00:49, externally triggered: False>
+[2018-08-27 14:06:42,790] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:45: scheduled__2015-06-01T00:00:45, externally triggered: False>
+[2018-08-27 14:06:42,831] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:46: scheduled__2015-06-01T00:00:46, externally triggered: False>
+[2018-08-27 14:06:42,844] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:47: scheduled__2015-06-01T00:00:47, externally triggered: False>
+[2018-08-27 14:06:42,859] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:48: scheduled__2015-06-01T00:00:48, externally triggered: False>
+[2018-08-27 14:06:42,873] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:49: scheduled__2015-06-01T00:00:49, externally triggered: False>
+[2018-08-27 14:06:42,901] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:06:42,944] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:47 [scheduled]> in ORM
+[2018-08-27 14:06:42,983] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:49 [scheduled]> in ORM
+[2018-08-27 14:06:43,027] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.436 seconds
+[2018-08-27 14:06:55,086] {jobs.py:368} INFO - Started process (PID=3811) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:55,088] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:06:55,093] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:06:55,303] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:06:55,460] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:50: scheduled__2015-06-01T00:00:50, externally triggered: False>
+[2018-08-27 14:06:55,462] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:46: scheduled__2015-06-01T00:00:46, externally triggered: False>
+[2018-08-27 14:06:55,545] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:47: scheduled__2015-06-01T00:00:47, externally triggered: False>
+[2018-08-27 14:06:55,558] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:48: scheduled__2015-06-01T00:00:48, externally triggered: False>
+[2018-08-27 14:06:55,569] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:49: scheduled__2015-06-01T00:00:49, externally triggered: False>
+[2018-08-27 14:06:55,583] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:50: scheduled__2015-06-01T00:00:50, externally triggered: False>
+[2018-08-27 14:06:55,612] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:06:55,692] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:48 [scheduled]> in ORM
+[2018-08-27 14:06:55,775] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:50 [scheduled]> in ORM
+[2018-08-27 14:06:55,813] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.727 seconds
+[2018-08-27 14:07:07,768] {jobs.py:368} INFO - Started process (PID=3828) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:07:07,770] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:07:07,774] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:07:07,823] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:07:07,925] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:51: scheduled__2015-06-01T00:00:51, externally triggered: False>
+[2018-08-27 14:07:07,929] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:47: scheduled__2015-06-01T00:00:47, externally triggered: False>
+[2018-08-27 14:07:07,967] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:48: scheduled__2015-06-01T00:00:48, externally triggered: False>
+[2018-08-27 14:07:07,977] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:49: scheduled__2015-06-01T00:00:49, externally triggered: False>
+[2018-08-27 14:07:07,986] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:50: scheduled__2015-06-01T00:00:50, externally triggered: False>
+[2018-08-27 14:07:08,001] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:51: scheduled__2015-06-01T00:00:51, externally triggered: False>
+[2018-08-27 14:07:08,025] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:07:08,060] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:49 [scheduled]> in ORM
+[2018-08-27 14:07:08,095] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:51 [scheduled]> in ORM
+[2018-08-27 14:07:08,133] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.365 seconds
+[2018-08-27 14:07:20,230] {jobs.py:368} INFO - Started process (PID=3854) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:07:20,233] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:07:20,236] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:07:20,284] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:07:20,388] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:52: scheduled__2015-06-01T00:00:52, externally triggered: False>
+[2018-08-27 14:07:20,390] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:48: scheduled__2015-06-01T00:00:48, externally triggered: False>
+[2018-08-27 14:07:20,430] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:49: scheduled__2015-06-01T00:00:49, externally triggered: False>
+[2018-08-27 14:07:20,441] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:50: scheduled__2015-06-01T00:00:50, externally triggered: False>
+[2018-08-27 14:07:20,452] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:51: scheduled__2015-06-01T00:00:51, externally triggered: False>
+[2018-08-27 14:07:20,464] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:52: scheduled__2015-06-01T00:00:52, externally triggered: False>
+[2018-08-27 14:07:20,491] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:07:20,527] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:50 [scheduled]> in ORM
+[2018-08-27 14:07:20,561] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:52 [scheduled]> in ORM
+[2018-08-27 14:07:20,600] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.369 seconds
+[2018-08-27 14:07:32,775] {jobs.py:368} INFO - Started process (PID=3876) to work on /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:07:32,777] {jobs.py:1742} INFO - Processing file /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py for tasks to queue
+[2018-08-27 14:07:32,781] {jobs.py:1754} INFO - DAG(s) dict_keys(['hello_world']) retrieved from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 14:07:32,829] {jobs.py:1386} INFO - Processing hello_world
+[2018-08-27 14:07:32,972] {jobs.py:1390} INFO - Created <DagRun hello_world @ 2015-06-01 00:00:53: scheduled__2015-06-01T00:00:53, externally triggered: False>
+[2018-08-27 14:07:32,974] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:49: scheduled__2015-06-01T00:00:49, externally triggered: False>
+[2018-08-27 14:07:33,023] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:50: scheduled__2015-06-01T00:00:50, externally triggered: False>
+[2018-08-27 14:07:33,033] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:51: scheduled__2015-06-01T00:00:51, externally triggered: False>
+[2018-08-27 14:07:33,044] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:52: scheduled__2015-06-01T00:00:52, externally triggered: False>
+[2018-08-27 14:07:33,056] {jobs.py:895} INFO - Examining DAG run <DagRun hello_world @ 2015-06-01 00:00:53: scheduled__2015-06-01T00:00:53, externally triggered: False>
+[2018-08-27 14:07:33,081] {jobs.py:594} INFO - Skipping SLA check for <DAG: hello_world> because no tasks in DAG have SLAs
+[2018-08-27 14:07:33,145] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:51 [scheduled]> in ORM
+[2018-08-27 14:07:33,197] {jobs.py:1819} INFO - Creating / updating <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:53 [scheduled]> in ORM
+[2018-08-27 14:07:33,276] {jobs.py:375} INFO - Processing /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py took 0.501 seconds

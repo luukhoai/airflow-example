@@ -1,0 +1,57 @@
+[2018-08-27 13:38:34,777] {cli.py:374} INFO - Running on host silverlight
+[2018-08-27 13:38:34,814] {models.py:1197} INFO - Dependencies all met for <TaskInstance: tutorial.templated 2015-06-10 00:00:00 [queued]>
+[2018-08-27 13:38:34,818] {models.py:1197} INFO - Dependencies all met for <TaskInstance: tutorial.templated 2015-06-10 00:00:00 [queued]>
+[2018-08-27 13:38:34,819] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 2
+--------------------------------------------------------------------------------
+
+[2018-08-27 13:38:34,877] {models.py:1428} INFO - Executing <Task(BashOperator): templated> on 2015-06-10 00:00:00
+[2018-08-27 13:38:34,877] {base_task_runner.py:115} INFO - Running: ['bash', '-c', 'airflow run tutorial templated 2015-06-10T00:00:00 --job_id 49 --raw -sd DAGS_FOLDER/tutorial.py']
+[2018-08-27 13:38:35,111] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,110] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python3.5/lib2to3/Grammar.txt
+[2018-08-27 13:38:35,141] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,141] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python3.5/lib2to3/PatternGrammar.txt
+[2018-08-27 13:38:35,242] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,241] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-08-27 13:38:35,271] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,271] {models.py:189} INFO - Filling up the DagBag from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/tutorial.py
+[2018-08-27 13:38:35,295] {cli.py:374} INFO - Running on host silverlight
+[2018-08-27 13:38:35,307] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,307] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-08-27 13:38:35,307] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-08-27 13:38:35,307] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,307] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmp0aqh_dxh//tmp/airflowtmp0aqh_dxh/templated6v6garpg
+[2018-08-27 13:38:35,307] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,307] {bash_operator.py:88} INFO - Running command: 
+[2018-08-27 13:38:35,307] {base_task_runner.py:98} INFO - Subtask:     
+[2018-08-27 13:38:35,307] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-10"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-17"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:         echo "Parameter I passed in"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:     
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-10"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-17"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:         echo "Parameter I passed in"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:     
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-10"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-17"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:         echo "Parameter I passed in"
+[2018-08-27 13:38:35,308] {base_task_runner.py:98} INFO - Subtask:     
+[2018-08-27 13:38:35,309] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-10"
+[2018-08-27 13:38:35,309] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-17"
+[2018-08-27 13:38:35,309] {base_task_runner.py:98} INFO - Subtask:         echo "Parameter I passed in"
+[2018-08-27 13:38:35,309] {base_task_runner.py:98} INFO - Subtask:     
+[2018-08-27 13:38:35,309] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-10"
+[2018-08-27 13:38:35,309] {base_task_runner.py:98} INFO - Subtask:         echo "2015-06-17"
+[2018-08-27 13:38:35,309] {base_task_runner.py:98} INFO - Subtask:         echo "Parameter I passed in"
+[2018-08-27 13:38:35,309] {base_task_runner.py:98} INFO - Subtask:     
+[2018-08-27 13:38:35,311] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,311] {bash_operator.py:97} INFO - Output:
+[2018-08-27 13:38:35,311] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,311] {bash_operator.py:101} INFO - 2015-06-10
+[2018-08-27 13:38:35,311] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,311] {bash_operator.py:101} INFO - 2015-06-17
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,311] {bash_operator.py:101} INFO - Parameter I passed in
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,311] {bash_operator.py:101} INFO - 2015-06-10
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - 2015-06-17
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - Parameter I passed in
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - 2015-06-10
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - 2015-06-17
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - Parameter I passed in
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - 2015-06-10
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - 2015-06-17
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - Parameter I passed in
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - 2015-06-10
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - 2015-06-17
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:101} INFO - Parameter I passed in
+[2018-08-27 13:38:35,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:38:35,312] {bash_operator.py:105} INFO - Command exited with return code 0

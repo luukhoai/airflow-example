@@ -1,0 +1,15 @@
+[2018-08-27 13:39:21,661] {cli.py:374} INFO - Running on host silverlight
+[2018-08-27 13:39:21,698] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:07 [queued]>
+[2018-08-27 13:39:21,701] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.dummy_task 2015-06-01 00:00:07 [queued]>
+[2018-08-27 13:39:21,701] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 1
+--------------------------------------------------------------------------------
+
+[2018-08-27 13:39:21,732] {models.py:1428} INFO - Executing <Task(DummyOperator): dummy_task> on 2015-06-01 00:00:07
+[2018-08-27 13:39:21,733] {base_task_runner.py:115} INFO - Running: ['bash', '-c', 'airflow run hello_world dummy_task 2015-06-01T00:00:07 --job_id 56 --raw -sd DAGS_FOLDER/hello_world.py']
+[2018-08-27 13:39:21,981] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:39:21,980] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python3.5/lib2to3/Grammar.txt
+[2018-08-27 13:39:22,015] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:39:22,014] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python3.5/lib2to3/PatternGrammar.txt
+[2018-08-27 13:39:22,122] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:39:22,122] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-08-27 13:39:22,153] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:39:22,153] {models.py:189} INFO - Filling up the DagBag from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:39:22,179] {cli.py:374} INFO - Running on host silverlight

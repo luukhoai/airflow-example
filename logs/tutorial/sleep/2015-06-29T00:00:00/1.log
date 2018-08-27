@@ -1,0 +1,21 @@
+[2018-08-27 13:49:31,771] {cli.py:374} INFO - Running on host silverlight
+[2018-08-27 13:49:31,830] {models.py:1197} INFO - Dependencies all met for <TaskInstance: tutorial.sleep 2015-06-29 00:00:00 [queued]>
+[2018-08-27 13:49:31,834] {models.py:1197} INFO - Dependencies all met for <TaskInstance: tutorial.sleep 2015-06-29 00:00:00 [queued]>
+[2018-08-27 13:49:31,835] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 4
+--------------------------------------------------------------------------------
+
+[2018-08-27 13:49:31,864] {models.py:1428} INFO - Executing <Task(BashOperator): sleep> on 2015-06-29 00:00:00
+[2018-08-27 13:49:31,864] {base_task_runner.py:115} INFO - Running: ['bash', '-c', 'airflow run tutorial sleep 2015-06-29T00:00:00 --job_id 144 --raw -sd DAGS_FOLDER/tutorial.py']
+[2018-08-27 13:49:32,103] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:32,103] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python3.5/lib2to3/Grammar.txt
+[2018-08-27 13:49:32,139] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:32,139] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python3.5/lib2to3/PatternGrammar.txt
+[2018-08-27 13:49:32,245] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:32,245] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-08-27 13:49:32,276] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:32,276] {models.py:189} INFO - Filling up the DagBag from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/tutorial.py
+[2018-08-27 13:49:32,304] {cli.py:374} INFO - Running on host silverlight
+[2018-08-27 13:49:32,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:32,311] {bash_operator.py:70} INFO - Tmp dir root location: 
+[2018-08-27 13:49:32,312] {base_task_runner.py:98} INFO - Subtask:  /tmp
+[2018-08-27 13:49:32,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:32,312] {bash_operator.py:80} INFO - Temporary script location: /tmp/airflowtmpgbxil6tf//tmp/airflowtmpgbxil6tf/sleep5y7ajajy
+[2018-08-27 13:49:32,312] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:32,312] {bash_operator.py:88} INFO - Running command: sleep 5
+[2018-08-27 13:49:32,315] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:32,315] {bash_operator.py:97} INFO - Output:
+[2018-08-27 13:49:37,319] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:49:37,317] {bash_operator.py:105} INFO - Command exited with return code 0

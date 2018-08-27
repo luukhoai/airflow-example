@@ -1,0 +1,17 @@
+[2018-08-27 13:42:02,653] {cli.py:374} INFO - Running on host silverlight
+[2018-08-27 13:42:02,747] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:09 [queued]>
+[2018-08-27 13:42:02,751] {models.py:1197} INFO - Dependencies all met for <TaskInstance: hello_world.helloworld_task 2015-06-01 00:00:09 [queued]>
+[2018-08-27 13:42:02,751] {models.py:1407} INFO - 
+--------------------------------------------------------------------------------
+Starting attempt 1 of 1
+--------------------------------------------------------------------------------
+
+[2018-08-27 13:42:02,804] {models.py:1428} INFO - Executing <Task(HelloWorldOperator): helloworld_task> on 2015-06-01 00:00:09
+[2018-08-27 13:42:02,804] {base_task_runner.py:115} INFO - Running: ['bash', '-c', 'airflow run hello_world helloworld_task 2015-06-01T00:00:09 --job_id 79 --raw -sd DAGS_FOLDER/hello_world.py']
+[2018-08-27 13:42:03,067] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:42:03,067] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python3.5/lib2to3/Grammar.txt
+[2018-08-27 13:42:03,101] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:42:03,100] {driver.py:120} INFO - Generating grammar tables from /usr/lib/python3.5/lib2to3/PatternGrammar.txt
+[2018-08-27 13:42:03,215] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:42:03,214] {__init__.py:45} INFO - Using executor SequentialExecutor
+[2018-08-27 13:42:03,251] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:42:03,251] {models.py:189} INFO - Filling up the DagBag from /home/silverlight/Projects/Minikube-deploy/airflow-project/dags/hello_world.py
+[2018-08-27 13:42:03,285] {cli.py:374} INFO - Running on host silverlight
+[2018-08-27 13:42:03,296] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:42:03,296] {hello_world.py:17} INFO - Hello World!
+[2018-08-27 13:42:03,296] {base_task_runner.py:98} INFO - Subtask: [2018-08-27 13:42:03,296] {hello_world.py:18} INFO - My params: This is a test.
